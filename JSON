@@ -1,0 +1,11 @@
+POST /api/notifications/send
+
+{
+  "userId": "user123",
+  "type": "marketing",
+  "channel": "email",
+  "content": {
+    "subject": "Special Offer",
+    "body": "Check out our latest deals!"
+  }
+}
